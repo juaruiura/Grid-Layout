@@ -1,0 +1,34 @@
+body {
+    font-family: Arial;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-gap: 5px;
+    grid-template: repeat(4, 100px) / repeat(3, 200px);
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.item {
+    background: lightblue;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+.header {
+    grid-area: header;
+}
+
+.left {
+    grid-area: left;
+}
+
+.content {
+    grid-area: content;
+}
+
+.footer {
+    grid-area: footer;
+}
